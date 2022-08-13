@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+/* index3.html */
+body {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#header {
+  height: 10vh;
+  background-image: url(./Oil-Refinery-scaled-e1630945974230.jpg);
+  background-size: cover;
+}
+
+/* footer */
+.d-flex input.email-adress {
+  background-color: #6464646b;
+  color: #93a1a7;
+  height: 40px;
+  width: 262px;
+  box-shadow: none;
+  /* height: 46px; */
+  border-radius: 2px;
+  /* background-color: #FFF; */
+  border: 1px solid #e5e5e5;
+  margin: 0 0 1.35286rem;
+  display: block;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 400;
+  transition: .5s;
+}
+
+.d-flex .btn {
+  border-radius: 5px;
+  color: #eb820afa;
+  background: rgb(252, 198, 1);
+  height: 40px;
+}
+
+.d-flex .btn:hover {
+  color: #eb820afa;
+  background: #073243;
+}
+
+footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 132px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+p a:hover {
+  color: blue;
+  font-size: 19px;
+}
+
+.small-container {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.col-3 {
+  padding: 10px;
+  min-width: 30px;
+
+  box-shadow: 0 0 20px 0 rgb(0, 0, 0, .1);
+  transition: .5s;
+}
+
+.small-container .pro {
+
+  cursor: pointer;
+}
+
+
+.col-3 img {
+  width: 100%;
+}
+
+h6 {
+  color: #555;
+  font-weight: normal;
+}
+
+.col-3 .article-box p {
+  font-size: 14px;
+}
+
+.rating {
+  color: #ffc73b;
+}
+
+.col-3 .article-box:hover {
+  transform: translateY(-8px);
+}
+
+.symbol {
+  font-size: larger;
+}
+
+input[type=submit],
+button[type=submit],
+.button {
+  background-image: linear-gradient(to right, #dd4454 0%, #dd9044 50%, #dd4454 100%);
+  background-size: 200% auto;
+  background-size: 200% auto;
+  border: none;
+  border-radius: 5em;
+  color: #fff;
+  display: inline-block;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 4px;
+  min-width: 85px;
+  padding: 10px 14px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: .5s;
+}
+
+h1:before {
+  content: attr(data-count);
+  position: absolute;
+  color: #e6e2e2;
+  right: 16px;
+  font-size: 15px;
+  text-align: center;
+  top: -12;
+  width: 20px;
+  height: 20px;
+  background: red;
+  border-radius: 50%;
+  opacity: 0;
+}
+
+
+input[type=submit]:hover {
+  background-image: linear-gradient(to right, #dd4454 0%, #dd9044 50%, #e6e2e2 100%);
+  font-weight: 500;
+  margin-top: 0px;
+  min-width: 85px;
+  padding: 14px 14px;
+  color: #000;
+}
+
+header {
+  height: 60px;
+
+  text-align: right;
+  padding-top: 20px;
+}
+
+.header-cart {
+  position: relative;
+  display: inline-block;
+  margin-right: 148px;
+  cursor: pointer;
+}
+
+.header-cart img {
+  width: 40px;
+}
+
+.header-cart span {
+  background-color: orangered;
+  color: #fff;
+  position: absolute;
+  width: 24px;
+  height: 20px;
+  top: -5px;
+  right: -15px;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 6px;
+  border-radius: 100%;
+}
+
+.article-holder {
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 50px;
+
+}
+
+.article-box {
+
+  padding: 20px;
+  position: relative;
+  transition: .5s;
+}
+
+header hr {
+  margin-right: 149px;
+  margin-left: 139px;
+  color: #073243;
+}
+
+.add-article {
+  background-image: linear-gradient(to right, #dd4454 0%, #dd9044 50%, #dd4454 100%);
+  background-size: 200% auto;
+  background-size: 200% auto;
+  border: none;
+  border-radius: 5em;
+  color: #fff;
+  display: inline-block;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  margin-bottom: 4px;
+  min-width: 60px;
+  padding: 10px 14px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: .5s;
+}
+
+button.add-article:hover {
+  background-image: linear-gradient(to right, #dd4454 0%, #dd9044 50%, #e6e2e2 100%);
+  font-weight: 500;
+  margin-top: 0px;
+  min-width: 60px;
+  padding: 14px 14px;
+  color: #000;
+}
+
+.animation-cart {
+  position: fixed;
+  animation-name: example;
+  animation-duration: 2.2s;
+  animation-fill-mode: forwards;
+  z-index: 99999;
+  transform(scale(0, 0));
+}
+
+@keyframes example {
+  0 {
+    transform: scale(0, 0);
+  }
+
+  60% {
+    transform: scale(1, 1);
+
+  }
+
+  100% {
+    transform: scale(0, 0);
+  }
+}
+
+.article-holder .row {
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+img.article-img {
+  height: 181px;
+  width: 100%;
+}
+
+.shake {
+  animation: shake 1s linear both 1s;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateY(0dpx)
+  }
+
+  25% {
+    transform: translateY(-10px)
+  }
+
+  50% {
+    transform: translateY(2px)
+  }
+
+  75% {
+    transform: translate7(0px)
+  }
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgb(209, 210, 221);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgb(27, 44, 60);
+}
+
+/* .wrap {
+  padding-top: 133px;
+  text-align: center;
+}
+
+.wrap {
+  margin-left: 724px;
+
+}
+
+.jumbotron.img-jumbo {
+  height: 483px;
+}
+
+.jumbotron {
+  background-image: url(https://media.istockphoto.com/photos/happy-blonde-model-girl-with-a-shiny-smile-in-beige-blouse-and-pink-picture-id1295853778?k=20&m=1295853778&s=612x612&w=0&h=WxUcEBSW6VDYH1JBVEbtQ-iMD4BFdbUlwslJwHy7RmU=);
+  background-size: 100% 100%;
+} */
+.carousel-item.active:hover {
+  transform: translateY(-8px);
+}
+
+img.d-block.w-100 {
+  height: 488px;
+}
+
+h1.heading {
+  padding-left: 109px;
+}
+
+.wrap {
+  padding-top: 167px;
+}
+
+span {
+  color: #ffa200;
+}
+
+.p-3.border:hover {
+  transform: translateY(-8px);
+}
+
+
+img.d-block.w-100 {
+  height: 488px;
+
+}
+
+span {
+  color: #e2b13c;
+}
+
+.section-header.bg-light.text-center {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.col.col-sm-4.col-md-4.col-xs-4.img-fluid {
+  width: 300px;
+  height: 250px;
+  border: 2px solid #e2b13c;
+  padding: 50px;
+  margin: 40px;
+  text-align: center;
+  font-family: poppins;
+}
+
+i.fa-solid.fa-phone.no {
+  font-size: 20px;
+  border: 10px solid #e2b13c;
+  border-radius: 50px;
+  background-color: #e2b13c;
+  color: white;
+}
+
+p {
+  color: #a2a2a2;
+  font-size: 20px;
+}
+
+i.fa-solid.fa-envelope.no {
+  font-size: 20px;
+  border: 10px solid #e2b13c;
+  border-radius: 50px;
+  background-color: #e2b13c;
+  color: white;
+}
+
+i.fa-solid.fa-location-dot.no {
+  font-size: 20px;
+  border: 10px solid #e2b13c;
+  border-radius: 50px;
+  background-color: #e2b13c;
+  color: white;
+}
+
+.container-sm {
+  margin-top: 30px;
+}
+
+label {
+  font-size: 20px;
+  font-style: bold;
+  color: #a2a2a2;
+  font-family: poppins;
+}
+
+input.form-control {
+  border: 1px solid #e2b13c;
+}
+
+textarea.form-control {
+  border: 1px solid #e2b13c;
+  margin-top: 10px;
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+.d-grid.gap-2.col-6.mx-auto.form-control {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* color: #e2b13c; */
+  border-color: #e2b13c;
+}
+
+button.btn.btn-light {
+  background-color: #e2b13c;
+  color: white;
+}
+
+.col-sm.input {
+  margin-right: 20px;
+}
+
+.container-sm {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+img.d-block.w-100 {
+  height: 488px;
+}
+
+span {
+  color: #e2b13c;
+}
+
+.font2 {
+  color: orange;
+}
+
+img.pic.rounded-circle {
+  height: 62px;
+  width: 62px;
+}
+
+.part.row {
+  padding-top: 17px;
+}
+
+.col-sm-4.col-md-4.co-lg-4.col-12.border.bg-light:hover {
+  transform: translateY(-8px);
+}
+
+
+/* slider start */
+.MultiCarousel {
+  float: left;
+  overflow: hidden;
+  padding: 15px;
+  width: 100%;
+  position: relative;
+}
+
+.MultiCarousel .MultiCarousel-inner {
+  transition: 1s ease all;
+  float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item {
+  float: left;
+}
+
+.MultiCarousel .MultiCarousel-inner .item>div {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: #0b0b0b;
+  color: #666;
+}
+
+.MultiCarousel .leftLst,
+.MultiCarousel .rightLst {
+  position: absolute;
+  border-radius: 50%;
+  top: calc(50% - 20px);
+}
+
+.MultiCarousel .leftLst {
+  left: 0;
+}
+
+.MultiCarousel .rightLst {
+  right: 0;
+}
+
+.MultiCarousel .leftLst.over,
+.MultiCarousel .rightLst.over {
+  pointer-events: none;
+  background: rgb(249, 155, 2);
+}
+
+/* slider end */
+
+h1#section1 {
+  padding: 1px;
+}
+
+button.btn.btn-outline-warning {
+  border-radius: 37px;
+}
+
+
+ul {
+ 
+  list-style: none;
+}
+
+/* footer */
+
+ul {
+ 
+  list-style: none;
+}
+.d-flex input.email-adress {
+  background-color: #6464646b;
+  color: #93a1a7;
+  height: 40px;
+  width: 262px;
+  box-shadow: none;
+  /* height: 46px; */
+  border-radius: 2px;
+  /* background-color: #FFF; */
+  border: 1px solid #e5e5e5;
+  margin: 0 0 1.35286rem;
+  display: block;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+/* footer end */
+

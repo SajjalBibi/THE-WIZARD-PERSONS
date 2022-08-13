@@ -1,0 +1,154 @@
+.section-header.bg-light.text-center {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.col.col-sm-4.col-md-4.col-xs-4.img-fluid {
+    width: 300px;
+    height: 250px;
+    border: 2px solid #e2b13c;
+    padding: 50px;
+    margin: 40px;
+    text-align: center;
+    font-family: poppins;
+}
+
+i.fa-solid.fa-phone.no {
+    font-size: 20px;
+    border: 10px solid #e2b13c;
+    border-radius: 50px;
+    background-color: #e2b13c;
+    color: white;
+}
+
+p {
+    color: #a2a2a2;
+    font-size: 20px;
+}
+
+i.fa-solid.fa-envelope.no {
+    font-size: 20px;
+    border: 10px solid #e2b13c;
+    border-radius: 50px;
+    background-color: #e2b13c;
+    color: white;
+}
+
+i.fa-solid.fa-location-dot.no {
+    font-size: 20px;
+    border: 10px solid #e2b13c;
+    border-radius: 50px;
+    background-color: #e2b13c;
+    color: white;
+}
+
+.container-sm {
+    margin-top: 30px;
+}
+
+label {
+    font-size: 20px;
+    font-style: bold;
+    color: #a2a2a2;
+    font-family: poppins;
+}
+
+input.form-control {
+    border: 1px solid #e2b13c;
+}
+
+textarea.form-control {
+    border: 1px solid #e2b13c;
+    margin-top: 10px;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+.d-grid.gap-2.col-6.mx-auto.form-control {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    /* color: #e2b13c; */
+    border-color: #e2b13c;
+}
+
+button.btn.btn-light {
+    background-color: #e2b13c;
+    color: white;
+}
+
+.col-sm.input {
+    margin-right: 20px;
+}
+
+.container-sm {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+img.d-block.w-100 {
+    height: 488px;
+}
+
+span {
+    color: #e2b13c;
+}
+
+.font2 {
+    color: orange;
+}
+
+img.pic.rounded-circle {
+    height: 62px;
+    width: 62px;
+}
+
+.part.row {
+    padding-top: 17px;
+}
+
+.col-sm-4.col-md-4.co-lg-4.col-12.border.bg-light:hover {
+    transform: translateY(-8px);
+}
+
+/* footer */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+ul {
+ 
+    list-style: none;
+  }
+  a.btn.btn-warning {
+    margin: 14px;
+    margin-top: 0px;
+    /* color: orange; */
+}
+
+p.copyright {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+  .d-flex input.email-adress {
+    background-color: #6464646b;
+    color: #93a1a7;
+    height: 40px;
+    width: 262px;
+    box-shadow: none;
+    /* height: 46px; */
+    border-radius: 2px;
+    /* background-color: #FFF; */
+    border: 1px solid #e5e5e5;
+    margin: 0 0 1.35286rem;
+    display: block;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  /* footer end */
